@@ -37,7 +37,7 @@ int main()
 	printf("\nEmbeding is in process...\n");
 	for(long long int i=0; i<1000000000; i++);
 	
-	//changing the matrix elements by 1-bit lsb
+	//changing the matrix elements by 2-bit lsb
 	for(int i=0 ;i<3; i++)
 	{
 		 for(int j=0; j<3; j++)
